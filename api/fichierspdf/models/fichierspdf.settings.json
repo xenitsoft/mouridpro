@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fichierspdfs",
+  "info": {
+    "name": "fichierspdf"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "fichierpdf": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

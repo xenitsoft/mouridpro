@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audios",
+  "info": {
+    "name": "Audios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Artistes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "artiste.artistes"
+    }
+  }
+}

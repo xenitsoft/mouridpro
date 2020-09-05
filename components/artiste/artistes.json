@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_artiste_artistes",
+  "info": {
+    "name": "Artistes",
+    "icon": "user-plus"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "albums": {
+      "type": "component",
+      "repeatable": true,
+      "component": "album.albums"
+    }
+  }
+}

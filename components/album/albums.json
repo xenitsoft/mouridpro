@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_album_albums",
+  "info": {
+    "name": "albums",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "cover_album": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "titre": {
+      "type": "string"
+    },
+    "traks": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

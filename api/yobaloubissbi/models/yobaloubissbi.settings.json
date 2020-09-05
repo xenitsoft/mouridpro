@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yobaloubissbis",
+  "info": {
+    "name": "yobaloubissbi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "yobale": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

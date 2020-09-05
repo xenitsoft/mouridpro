@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/yobaloubissbis",
+      "handler": "yobaloubissbi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yobaloubissbis/count",
+      "handler": "yobaloubissbi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yobaloubissbis/:id",
+      "handler": "yobaloubissbi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/yobaloubissbis",
+      "handler": "yobaloubissbi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/yobaloubissbis/:id",
+      "handler": "yobaloubissbi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/yobaloubissbis/:id",
+      "handler": "yobaloubissbi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
