@@ -13,7 +13,7 @@ module.exports = {
             host: 'app.mouridpro.com',
             ref: 'origin/master',
             repo: 'https://github.com/xenitsoft/mouridpro.git',
-            path: '/var/WWW',
+            path: '/var/www',
             'pre-deploy-local': '',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
             'pre-setup': ''
